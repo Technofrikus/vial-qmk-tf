@@ -1,0 +1,12 @@
+VIA_ENABLE = yes            # VIA support
+VIAL_ENABLE = yes            # VIAL support
+LTO_ENABLE = no            
+RGBLIGHT_ENABLE = yes
+OLED_ENABLE = yes
+OLED_DRIVER = SSD1306
+OLED_DRIVER_ENABLE = yes
+WPM_ENABLE = yes
+#HAPTIC_ENABLE = yes
+#HAPTIC_DRIVER = DRV2605L
+#AUDIO_ENABLE = yes
+#AUDIO_DRIVER = dac_basic
