@@ -48,7 +48,7 @@ qp_comms_stop(display);
 
 backlight_enable(); // enable the backlight
 backlight_set(31);
-//qp_rect(display, 0, 0, 480, 320, HSV_BLACK, true); //Fill screen with black
+qp_rect(display, 0, 0, 480, 320, HSV_BLACK, true); //Fill screen with black
 my_image = qp_load_image_mem(gfx_ClackyRainbow_480x320);
 qp_drawimage(display, 0, 0, my_image);
 
@@ -139,7 +139,7 @@ void housekeeping_task_user(void) {
 
        // Get all keycodes (except encoder) of the current layer into the array and draw them
       // probably wrong static char cKC[2] = "00";
-      static char *cKC;
+   /*    static char *cKC;
       int textX = 60; //x middle of the first cell
       int textY = 32; //y middle of the first cell
       int16_t width = 0;
@@ -159,7 +159,7 @@ void housekeeping_task_user(void) {
 
            }
            textY = textY + 64;
-        }
+        } */
     }
 };
 
