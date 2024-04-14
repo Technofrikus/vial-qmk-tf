@@ -1,17 +1,7 @@
 {
     "keyboard_name": "Bruce the Keyboard",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "manufacturer": "whydobearsexplod",
-    "url": "https://github.com/josh-l-wang/bruce-the-keyboard",
-=======
     "manufacturer": "jlw",
     "url": "https://github.com/josh-l-wang/Bruce-the-Keyboard-the-Resources",
->>>>>>> refs/remotes/upstream/vial
-=======
-    "manufacturer": "jlw",
-    "url": "https://github.com/josh-l-wang/Bruce-the-Keyboard-the-Resources",
->>>>>>> refs/remotes/upstream/vial
     "maintainer": "jlw",
     "usb": {
         "vid": "0x1209",
@@ -73,14 +63,6 @@
                 {"matrix": [3, 7], "x": 7, "y": 3.25},
             ]
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> refs/remotes/upstream/vial
-=======
-
->>>>>>> refs/remotes/upstream/vial
     }
 }
