@@ -1,8 +1,13 @@
 {
     "keyboard_name": "Bruce the Keyboard",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "manufacturer": "whydobearsexplod",
     "url": "https://github.com/josh-l-wang/bruce-the-keyboard",
+=======
+    "manufacturer": "jlw",
+    "url": "https://github.com/josh-l-wang/Bruce-the-Keyboard-the-Resources",
+>>>>>>> refs/remotes/upstream/vial
 =======
     "manufacturer": "jlw",
     "url": "https://github.com/josh-l-wang/Bruce-the-Keyboard-the-Resources",
@@ -69,7 +74,11 @@
             ]
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> refs/remotes/upstream/vial
 =======
 
 >>>>>>> refs/remotes/upstream/vial
