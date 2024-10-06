@@ -18,6 +18,7 @@
  */
 
 #include QMK_KEYBOARD_H
+#include "keymap_german_mac_iso.h" //REMOVE if you are not German AND on a Mac
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {

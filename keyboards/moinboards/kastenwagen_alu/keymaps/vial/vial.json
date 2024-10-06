@@ -1,21 +1,42 @@
 {
-    "lighting": "none",
+    "lighting": "vialrgb",
     "matrix": { "rows": 4, "cols": 17 },
     "layouts": {
         "labels": [
             ["Bottom Row", "Split Spacebar", "Big Bar"],
             "2u Zero Numpad",
-            "2u Enter Numpad"
+            "2u Enter Numpad",
+            "Encoder Left",
+            "Encoder Right"
         ],
         "keymap": [
             [
-                "0,0\n\n\n\n\n\n\n\n\ne",
-                "0,1\n\n\n\n\n\n\n\n\ne",
+                "0,0\n\n\n3,1\n\n\n\n\n\ne",
+                "0,1\n\n\n3,1\n\n\n\n\n\ne",
                 {
                     "x": 15.5
                 },
-                "1,0\n\n\n\n\n\n\n\n\ne",
-                "1,1\n\n\n\n\n\n\n\n\ne"
+                "1,0\n\n\n4,1\n\n\n\n\n\ne",
+                "1,1\n\n\n4,1\n\n\n\n\n\ne"
+            ],
+            [
+                {
+                    "d": true
+                },
+                "0,0\n\n\n3,0\n\n\n\n\n\ne",
+                {
+                    "d": true
+                },
+                "0,1\n\n\n3,0\n\n\n\n\n\ne",
+                {
+                    "x": 15.5,
+                    "d": true
+                },
+                "1,0\n\n\n4,0\n\n\n\n\n\ne",
+                {
+                    "d": true
+                },
+                "1,1\n\n\n4,0\n\n\n\n\n\ne"
             ],
             [
                 {
