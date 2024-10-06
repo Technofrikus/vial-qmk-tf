@@ -10,8 +10,15 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "encoder": true
     },
+    "encoder": {
+        "rotary": [
+          { "pin_a": "A5", "pin_b": "A4", "resolution": 4 },
+          { "pin_a": "B4", "pin_b": "B3", "resolution": 4 }
+        ]
+      }
     "matrix_pins": {
         "cols": [
             "A9",
@@ -75,6 +82,7 @@
                 { "matrix": [1, 11], "x": 11, "y": 1 },
                 { "matrix": [1, 12], "x": 12, "y": 1, "w": 1.5 },
                 { "matrix": [1, 13], "x": 13, "y": 1 },
+                { "matrix": [1, 14], "x": 14, "y": 1 },
                 { "matrix": [1, 15], "x": 15, "y": 1 },
                 { "matrix": [1, 16], "x": 16, "y": 1 },
                 { "matrix": [2, 0], "x": 0, "y": 2, "w": 1.75 },
@@ -91,6 +99,7 @@
                 { "matrix": [2, 11], "x": 11, "y": 2, "w": 1.25 },
                 { "matrix": [2, 12], "x": 12, "y": 2 },
                 { "matrix": [2, 13], "x": 13, "y": 2 },
+                { "matrix": [2, 14], "x": 14, "y": 2 },
                 { "matrix": [2, 15], "x": 15, "y": 2 },
                 { "matrix": [2, 16], "x": 16, "y": 2 },
                 { "matrix": [3, 0], "x": 0, "y": 3, "w": 1.25 },
@@ -103,6 +112,8 @@
                 { "matrix": [3, 10], "x": 10, "y": 3, "w": 1.25 },
                 { "matrix": [3, 11], "x": 11, "y": 3 },
                 { "matrix": [3, 12], "x": 12, "y": 3 },
+                { "matrix": [3, 13], "x": 13, "y": 3 },
+                { "matrix": [3, 14], "x": 14, "y": 3 },
                 { "matrix": [3, 15], "x": 15, "y": 3 },
                 { "matrix": [3, 16], "x": 16, "y": 3 }
             ]
