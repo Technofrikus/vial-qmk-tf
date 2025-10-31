@@ -1,12 +1,7 @@
 // RGB Light settings
 #define WS2812_DI_PIN A7
 #define RGBLIGHT_LED_COUNT 43
-#define RGBLIGHT_DEFAULT_VAL 10
-#define RGBLIGHT_LIMIT_VAL 50
-#define RGBLIGHT_VAL_STEP 10
-#define RGBLIGHT_DEFAULT_HUE 0
-#define RGBLIGHT_DEFAULT_SAT 100
-#define RGBLIGHT_DEFAULT_SPD 5
+#define RGBLIGHT_LIMIT_VAL 200
 
 // Enable all RGB effects for VIAL control
 #define RGBLIGHT_EFFECT_ALTERNATING
@@ -26,8 +21,5 @@
 
 // combos always reference to QWERTY
 #define COMBO_ONLY_FROM_LAYER 0
-
-// combo and MT restriction logic
-#define COMBO_SHOULD_TRIGGER
 
 //#define ENCODERS_PAD { A3, A4 }
