@@ -16,6 +16,8 @@
 
 #include "quantum.h"
 #include "rgb_matrix.h"
+#include "matrix.h"
+#include <lib/lib8tion/lib8tion.h>
 
 #ifdef RGB_MATRIX_KEYREACTIVE_ENABLED
 // Lookup table mapping matrix positions to all LED indices
@@ -112,5 +114,3 @@ void keyboard_post_init_kb(void) {
 
     keyboard_post_init_user();
 }
-
-

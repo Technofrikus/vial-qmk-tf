@@ -25,3 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Enable RGB Matrix keypress reactive effects
 #define RGB_MATRIX_KEYPRESSES
+
+// Enable custom RGB Matrix effects
+#define RGB_MATRIX_CUSTOM_KB
