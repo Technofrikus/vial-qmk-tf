@@ -22,6 +22,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 1000U
 
 #define RP2040_FLASH_GENERIC_03H
-
-// Enable RGB Matrix keypress reactive effects
-#define RGB_MATRIX_KEYPRESSES
