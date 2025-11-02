@@ -109,8 +109,9 @@ uint8_t rgb_matrix_map_row_column_to_led_kb(uint8_t row, uint8_t column, uint8_t
 #endif // RGB_MATRIX_KEYREACTIVE_ENABLED
 
 void keyboard_post_init_kb(void) {
-    debug_enable   = true;
-    debug_keyboard = true;
+    // Disable debug output to reduce USB overhead and improve stability
+    debug_enable   = false;
+    debug_keyboard = false;
 
     keyboard_post_init_user();
 }

@@ -72,14 +72,7 @@
             "solid_reactive_multinexus": true,
             "solid_reactive_nexus": true,
             "solid_reactive_simple": true,
-            "solid_reactive_wide": true,
-            "solid_splash": true,
-            "splash": true,
-            "starlight": true,
-            "starlight_dual_hue": true,
-            "starlight_dual_sat": true,
-            "starlight_smooth": true,
-            "typing_heatmap": true
+            "solid_splash": true
         },
         "layout": [
             {"x": 0, "y": 24,"matrix": [1, 0], "flags": 4},
@@ -143,12 +136,17 @@
             {"x": 6, "y": 48, "matrix": [2, 0],"flags": 4},
             {"x": 0, "y": 43, "matrix": [2, 0],"flags": 4},
             {"x": 0, "y": 37, "matrix": [2, 0],"flags": 4},
-            {"x": 0, "y": 32, "matrix": [1, 0],"flags": 4},
+            {"x": 0, "y": 32, "matrix": [1, 0],"flags": 4}
         ]
     },
     "processor": "RP2040",
     "qmk": {
         "tap_keycode_delay": 10
+    },
+    "host": {
+        "default": {
+            "nkro": true
+        }
     },
     "url": "https://qmk.fm/keyboards",
     "usb": {

@@ -28,3 +28,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Enable custom RGB Matrix effects
 #define RGB_MATRIX_CUSTOM_KB
+
+// Performance and stability optimizations
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS  // Enable more efficient frame buffering
+#define RGB_MATRIX_DEFAULT_SPD 127      // Slower animation speed to reduce CPU load
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 200  // Reduce max brightness (was 255) to reduce power draw
+#define RGB_MATRIX_LED_FLUSH_LIMIT 16   // Process fewer LEDs per iteration to avoid blocking
+#define DEBOUNCE 5                      // Standard debounce time
+#define USB_POLLING_INTERVAL_MS 1       // Fast USB polling
