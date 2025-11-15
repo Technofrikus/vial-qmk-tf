@@ -26,3 +26,8 @@
 #endif
 
 #define POINTING_DEVICE_ROTATION_90
+
+/* RGB Lighting */
+#ifndef WS2812_DI_PIN
+#    define WS2812_DI_PIN GP0
+#endif

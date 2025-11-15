@@ -15,10 +15,13 @@
         "extrakey": true,
         "nkro": true,
         "oled": false,
-        "rgblight": false,
+        "rgblight": true,
         "rgb_matrix": false,
         "mousekey": true,
         "encoder": true
+    },
+    "rgblight": {
+        "led_count": 3
     },
     "build": {
         "lto": true

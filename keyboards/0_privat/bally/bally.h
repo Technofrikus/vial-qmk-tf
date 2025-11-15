@@ -48,19 +48,6 @@ typedef union {
 
 extern cocot_config_t cocot_config;
 
-enum cocot_keycodes {
-
-    COCOT_SAFE_RANGE = SAFE_RANGE,
-    CPI_SW,
-    SCRL_SW,
-    ROT_R15,
-    ROT_L15,
-    SCRL_MO,
-    SCRL_TO,
-    SCRL_IN,
-    AM_TOG
-};
-
 #define CPI_SW QK_KB_0
 #define SCRL_SW QK_KB_1
 #define ROT_R15 QK_KB_2
@@ -83,7 +70,3 @@ void disable_click_layer(void);
 int16_t my_abs(int16_t num);
 int16_t mmouse_move_y_sign(int16_t num);
 bool is_clickable_mode(void);
-
-
-void render_logo(void);
-void oled_write_layer_state(void);
