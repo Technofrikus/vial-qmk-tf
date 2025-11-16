@@ -11,12 +11,17 @@
     {"name": "ROT_L15", "title": "Rotate sensor Y-axis by 15 degrees counterclockwise", "shortName": "ROT_L15"},
     {"name": "SCRL_MO", "title": "Enable scroll mode while being pressed", "shortName": "SCRL_MO"},
     {"name": "SCRL_TO", "title": "Toggle scroll and cursor mode each time pressed", "shortName": "SCRL_TO"},
-    {"name": "SCRL_IN", "title": "Invert scroll direction", "shortName": "SCRL_IN"}
+    {"name": "SCRL_IN", "title": "Invert scroll direction", "shortName": "SCRL_IN"},
+    {"name": "VOL_MO", "title": "Use trackball for volume while held", "shortName": "VOL_MO"},
+    {"name": "VOL_TO", "title": "Toggle trackball volume mode", "shortName": "VOL_TO"},
+    {"name": "BRT_MO", "title": "Use trackball for brightness while held", "shortName": "BRT_MO"},
+    {"name": "BRT_TO", "title": "Toggle trackball brightness mode", "shortName": "BRT_TO"}
   ],
   "layouts": {
     "labels": [
       ["Bottom", "2+1.25+1.25+2", "1.75+1.25+1.25+1.75", "2+1+1+2", "3+3", "6"],
-      ["Right Shift", "1+1.25", "1.25+1"]
+      ["Right Shift", "1+1.25", "1.25+1"],
+      "Encoder"
     ],
     "keymap": [
       [
@@ -48,8 +53,8 @@
         {
           "x": 0.25
         },
-        "0,0\n\n\n\n\n\n\n\n\ne",
-        "0,1\n\n\n\n\n\n\n\n\ne"
+        "0,0\n\n\n2,0\n\n\n\n\n\ne",
+        "0,1\n\n\n2,0\n\n\n\n\n\ne"
       ],
       [
         {
@@ -74,7 +79,16 @@
           "c": "#a8a8a8",
           "w": 1.75
         },
-        "1,11"
+        "1,11",
+        {
+          "x": 0.25,
+          "d": true
+        },
+        "0,0\n\n\n2,1\n\n\n\n\n\ne",
+        {
+          "d": true
+        },
+        "0,1\n\n\n2,1\n\n\n\n\n\ne"
       ],
       [
         {
@@ -301,6 +315,6 @@
         },
         "3,11\n\n\n0,4"
       ]
-      ]
+    ]
   }
 }
