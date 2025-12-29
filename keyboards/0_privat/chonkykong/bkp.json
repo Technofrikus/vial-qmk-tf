@@ -1,0 +1,57 @@
+{
+    "manufacturer": "weteor",
+    "keyboard_name": "chonkykong",
+    "maintainer": "weteor",
+    "url": "https://github.com/weteor/chonky_kong/",
+    "usb": {
+        "device_version": "0.1.0",
+        "pid": "0x4657",
+        "vid": "0xFEED"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "nkro": true,
+        "mousekey": false,
+        "console": false,
+        "command": false
+    },
+    "build": {
+        "lto": false
+    },
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": [
+            "GP3",
+            "GP4",
+            "GP5",
+            "GP6",
+            "GP7",
+            "GP12",
+            "GP26",
+            "GP25",
+            "GP24",
+            "GP16",
+            "GP17",
+            "GP18",
+            "GP19",
+            "GP20",
+            "GP22"
+        ],
+        "rows": [
+            "GP8",
+            "GP9",
+            "GP10",
+            "GP11"
+        ]
+    },
+    "matrix_size": {
+        "cols": 15,
+        "rows": 4
+    },
+    "rp2040_bootloader_double_tap_reset": true,
+    "rp2040_bootloader_double_tap_reset_timeout": true
+}
+

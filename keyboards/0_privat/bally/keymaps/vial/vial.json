@@ -15,7 +15,10 @@
     {"name": "VOL_MO", "title": "Use trackball for volume while held", "shortName": "VOL_MO"},
     {"name": "VOL_TO", "title": "Toggle trackball volume mode", "shortName": "VOL_TO"},
     {"name": "BRT_MO", "title": "Use trackball for brightness while held", "shortName": "BRT_MO"},
-    {"name": "BRT_TO", "title": "Toggle trackball brightness mode", "shortName": "BRT_TO"}
+    {"name": "BRT_TO", "title": "Toggle trackball brightness mode", "shortName": "BRT_TO"},
+    {"name": "AM_TOG", "title": "Toggle auto mouse layer", "shortName": "AM"},
+    {"name": "GAIN_UP", "title": "Increase adaptive gain", "shortName": "GAIN+"},
+    {"name": "GAIN_DN", "title": "Decrease adaptive gain", "shortName": "GAIN-"}
   ],
   "layouts": {
     "labels": [

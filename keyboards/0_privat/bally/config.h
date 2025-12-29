@@ -4,6 +4,7 @@
 #pragma once
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 8
+#define COMBO_ONLY_FROM_LAYER 0
 
 /* Trackball */
 

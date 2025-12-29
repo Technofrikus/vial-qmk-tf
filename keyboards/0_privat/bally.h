@@ -33,16 +33,20 @@
   }
 */
 
-// Keyboard config stored in 32-bit eeconfig_kb
-typedef struct {
-    uint8_t cpi_idx;
-    uint8_t scrl_div;
-    uint8_t rotation_angle;
-    uint8_t auto_mouse;
-    uint8_t scrl_inv;
-    uint8_t scrl_mode;
-    uint8_t adaptive_gain;
-    uint8_t reserved;
+// Packed keyboard config (fits into eeconfig_update_kb 32-bit storage)
+typedef union {
+    uint32_t raw;
+    struct {
+        uint32_t cpi_idx        : 3;  // up to 6 entries
+        uint32_t scrl_div       : 3;  // up to 5 entries
+        uint32_t rotation_angle : 4;  // up to 13 entries
+        uint32_t auto_mouse     : 1;
+        uint32_t scrl_inv       : 1;
+        uint32_t scrl_mode      : 1;
+        uint32_t adaptive_gain  : 8;  // 0-255
+        uint32_t reserved       : 3;  // config version (0-7)
+        uint32_t _pad           : 8;  // unused
+    };
 } trackball_config_t;
 
 extern trackball_config_t trackball_config;

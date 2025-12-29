@@ -22,8 +22,8 @@
     },
     "rgblight": {
         "led_count": 3,
-        "max_brightness": 120,
-        "sleep": true,
+        "max_brightness": 255,
+        "sleep": false,
         "animations": {
             "breathing": true,
             "rainbow_mood": true,
