@@ -18,6 +18,20 @@
           {"pin_a": "A3", "pin_b": "A4", "resolution": 4}
         ]
       },
+    "rgblight": {
+        "led_count": 43,
+        "max_brightness": 200,
+        "animations": {
+            "all": true
+        },
+        "layers": {
+            "enabled": true,
+            "override_rgb": true
+        }
+    },
+    "ws2812": {
+        "pin": "A7"
+    },
     "matrix_pins": {
         "cols": ["B0", "B1", "B2", "B10", "B11", "B12", "B8", "B9", "B5", "A14", "A15", "B3"],
         "rows": ["B13", "B4", "A5", "A6"]

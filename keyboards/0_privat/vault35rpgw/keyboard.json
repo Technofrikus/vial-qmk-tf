@@ -16,17 +16,23 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "rgblight": true
+    },
+    "rgblight": {
+        "led_count": 62,
+        "animations": {
+            "all": true
+        }
     },
     "matrix_pins": {
         "cols": ["GP0", "GP29", "GP17", "GP28", "GP27", "GP26", "GP25", "GP24", "GP3", "GP2", "GP6"],
         "rows": ["GP7", "GP1", "GP23", "GP22"]
     },
-
     "ws2812": {
-    "pin": "GP16",
-    "driver": "vendor"
-},
+        "pin": "GP16",
+        "driver": "vendor"
+    },
     "processor": "RP2040",
     "qmk": {
         "tap_keycode_delay": 10

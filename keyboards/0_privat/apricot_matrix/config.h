@@ -21,7 +21,6 @@
 // combos always reference to QWERTY
 #define COMBO_ONLY_FROM_LAYER 0
 
-#define WS2812_DI_PIN B3
 //Enable for normal RGB lighting
 // #define RGBLED_NUM 4
 //Enable for Matrix RGB lighting

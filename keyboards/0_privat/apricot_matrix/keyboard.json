@@ -15,6 +15,9 @@
 		"rgblight": false,
 		"rgb_matrix": true
     },
+    "ws2812": {
+        "pin": "B3"
+    },
     "matrix_pins": {
         "cols": ["E6", "D3", "C7", "D4", "D6", "D7", "B4", "B5", "B6", "C6"],
         "rows": ["B7", "B2", "D5", "F7"]
