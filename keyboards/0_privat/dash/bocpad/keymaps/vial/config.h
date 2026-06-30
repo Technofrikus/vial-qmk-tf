@@ -1,0 +1,9 @@
+#pragma once
+
+#define VIAL_KEYBOARD_UID {0x88, 0x5E, 0xB0, 0x59, 0x58, 0x85, 0x2C, 0x08}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
+
+#define VIAL_COMBO_ENTRIES 32
+#define VIAL_TAP_DANCE_ENTRIES 32
+#define VIAL_KEY_OVERRIDE_ENTRIES 16

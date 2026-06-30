@@ -37,7 +37,7 @@ This skill provides the workflow for updating older QMK/Vial keyboard configurat
 ### 4. Compilation Fixes & Size Optimization
 - **Firmware too large**: 
   - Enable LTO: `LTO_ENABLE = yes` in `rules.mk`.
-  - Disable QMK Settings: `QMK_SETTINGS = no` in `rules.mk` (if using Vial).
+  - Disable QMK Settings (ONLY if space is tight): `QMK_SETTINGS = no` in `rules.mk` (if using Vial). On STM32/RP2040, keep it `yes` (default).
 - **EEPROM Limit**: If `Dynamic keymaps are configured to use more EEPROM than is available` error occurs:
   - Reduce `DYNAMIC_KEYMAP_LAYER_COUNT` in `config.h` (e.g., from 8 to 4).
   - Reduce `VIAL_COMBO_ENTRIES` or `VIAL_TAP_DANCE_ENTRIES`.
@@ -46,3 +46,6 @@ This skill provides the workflow for updating older QMK/Vial keyboard configurat
 - Always clean before flashing if strange errors occur: `make <keyboard>:<keymap>:clean`.
 - Use `make <keyboard>:<keymap>` without `:flash` to test compilation first.
 - Refer to `keyboards/0_privat/bally` as a modern reference structure.
+
+## See also
+- **qmk-vial-porting** — new Vial ports: `vial.json`, KLE layout options, `keyboard.json` LAYOUT alignment, encoders, lighting.

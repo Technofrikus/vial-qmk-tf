@@ -1,0 +1,12 @@
+{
+    "name": "audiotest",
+    "vendorId": "0xFEED",
+    "productId": "0xA001",
+    "lighting": "none",
+    "matrix": { "rows": 1, "cols": 1 },
+    "layouts": {
+        "keymap": [
+            ["0,0"]
+        ]
+    }
+}

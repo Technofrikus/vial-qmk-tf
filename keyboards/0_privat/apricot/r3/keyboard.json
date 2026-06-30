@@ -15,11 +15,31 @@
         "cols": [ "B12", "B8", "C15", "B7", "B6", "B5", "B4", "B3", "A15", "A14" ],
         "rows": ["B13", "A7", "A6", "A2"]
     },
+    "rgblight": {
+        "led_count": 4,
+        "animations": {
+            "all": true,
+            "alternating": true,
+            "breathing": true,
+            "christmas": true,
+            "knight": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "rgb_test": true,
+            "snake": true,
+            "static_gradient": true,
+            "twinkle": true
+        }
+    },
+    "ws2812": {
+        "pin": "C13"
+    },
     "features": {
         "console": true,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "rgblight": true
     },
     "bootmagic": {
         "enabled": true,

@@ -1,0 +1,43 @@
+{
+    "keyboard_name": "BoCpad",
+    "manufacturer": "Dashkeebs",
+    "maintainer": "Technofrikus",
+    "url": "",
+    "usb": {
+        "vid": "0xDA54",
+        "pid": "0x0005",
+        "device_version": "1.0.0"
+    },
+    "processor": "STM32F072",
+    "bootloader": "stm32-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "qmk_settings": true
+    },
+    "bootmagic": {
+        "enabled": true,
+        "matrix": [0, 0]
+    },
+    "matrix_pins": {
+        "direct": [
+            ["B0", "A5", "B1", "A6", "A3", "A7", "A4"]
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 2], "x": 1, "y": 0},
+                {"matrix": [0, 0], "x": 0, "y": 0.5},
+                {"matrix": [0, 5], "x": 2, "y": 0.5},
+                {"matrix": [0, 3], "x": 1, "y": 1},
+                {"matrix": [0, 1], "x": 0, "y": 1.5},
+                {"matrix": [0, 6], "x": 2, "y": 1.5},
+                {"matrix": [0, 4], "x": 1, "y": 2}
+            ]
+        }
+    }
+}

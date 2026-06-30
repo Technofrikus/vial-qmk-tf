@@ -1,0 +1,38 @@
+{
+    "manufacturer": "technofrikus",
+    "keyboard_name": "audiotest",
+    "maintainer": "technofrikus",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0xA001",
+        "vid": "0xFEED"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "audio": true,
+        "bootmagic": true,
+        "extrakey": true,
+        "nkro": true,
+        "mousekey": false
+    },
+    "audio": {
+        "driver": "pwm_hardware"
+    },
+    "build": {
+        "lto": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP29"]
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0}
+            ]
+        }
+    }
+}
